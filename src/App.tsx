@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Home from './paginas/home/Home';
 import Navbar from './components/estaticos/navbar/Navbar';
-import Footer from './components/estaticos/footer/Footer';
+import Footer from './components/estaticos/footer/footer';
 import Login from './paginas/login/Login';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import CadastroUsuario from './paginas/cadastroUsuario/CadastroUsuario';
@@ -40,7 +40,7 @@ function App() {
           <Route path="/deletarTema/:id" element={<DeletarTema />} />
         </Routes>
       </div>
-      <Footer />
+      <footer />
     </Router>
     
     </Provider>
